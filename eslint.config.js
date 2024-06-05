@@ -56,9 +56,10 @@ module.exports = tseslint.config(
       'no-nested-ternary': 'warn',
       'no-unneeded-ternary': 'warn',
       // plugin:@angular-eslint/all
-      '@angular-eslint/prefer-standalone-component': 'warn',
+      '@angular-eslint/prefer-standalone': 'off',
       '@angular-eslint/prefer-on-push-component-change-detection': 'off',
-      '@angular-eslint/sort-ngmodule-metadata-arrays': 'warn',
+      '@angular-eslint/sort-ngmodule-metadata-arrays': 'off',
+      '@angular-eslint/prefer-output-readonly': 'off',
       // plugin:@typescript-eslint/recommended
       '@typescript-eslint/unbound-method': 'off',
       '@typescript-eslint/no-floating-promises': 'off',
